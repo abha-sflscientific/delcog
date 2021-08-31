@@ -8,7 +8,7 @@ generatorOptions:
   disableNameSuffixHash: true
 configMapGenerator:
 - literals:
-  - cluster-name=test
+  - cluster-name=testteam-eks-cluster
   name: aws-alb-ingress-controller-config
 images:
 - name: docker.io/amazon/aws-alb-ingress-controller
